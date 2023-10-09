@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors Smart Contract</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rock-Paper-Scissors Smart Contract</h1>
+    </header>
+		<div>
+			<input type="text" id="amount">
+			<p id="balance"></p>
+			<button id='deposit' >Deposit</button>
+			<button id='withdraw'>Withdraw</button>
+		</div>
+    <main>
+        <section class="upload-section">
+            <h2>Upload Your Smart Contract Code</h2>
+            <input type="file" id="contract-upload" accept=".py">
+            <button id="upload-button">Upload</button>
+        </section>
+        <section class="game-section">
+            <h2>Play Rock-Paper-Scissors</h2>
+            <p>Select your move:</p>
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+            <p>Your password:</p>
+            <input type="password" id="password">
+            <button id="play-button">Play</button>
+            <p id="game-result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Rock-Paper-Scissors Smart Contract</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
